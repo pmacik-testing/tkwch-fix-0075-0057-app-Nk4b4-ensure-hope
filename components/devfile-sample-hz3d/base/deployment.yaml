@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-hz3d
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0057-tenant/tkwch-fix-0075-0057-app/devfile-sample-hz3d@sha256:41de0b522b7a321a886acdbb9eef7556a47879fa2b9f3dcd82cbfecde9397cd2
         name: my-nodejs
         ports:
         - containerPort: 3001
