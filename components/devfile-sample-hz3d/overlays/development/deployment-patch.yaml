@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-hz3d
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0057-tenant/tkwch-fix-0075-0057-app/devfile-sample-hz3d@sha256:41de0b522b7a321a886acdbb9eef7556a47879fa2b9f3dcd82cbfecde9397cd2
+        name: my-nodejs
+        resources: {}
+status: {}
